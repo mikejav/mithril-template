@@ -1,0 +1,30 @@
+{
+  "name": "mithril-template",
+  "version": "0.0.1",
+  "description": "html to mithril hyperscript transpiler",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikejav/mithril-template.git"
+  },
+  "keywords": [
+    "mithril",
+    "mithril-template",
+    "hyperscript",
+    "virtual-DOM",
+    "html-transpiler"
+  ],
+  "author": {
+    "name": "Michał Jaworski",
+    "url": "https://github.com/mikejav"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikejav/mithril-template/issues"
+  },
+  "scripts": {},
+  "dependencies": {
+    "uglify-js": "^3.0.8",
+    "parse5": "^3.0.2"
+  }
+}
