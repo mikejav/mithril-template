@@ -87,11 +87,11 @@ m(customComponent,{key:'unique420'},m("span[style='color: red;']","Hello!"))
 Nested data will be available in `vnode.children` component view property:
 ```html
 <!--customComponent view-->
-<div class="styled-message">{{ vnode.children[0] }}</div>
+<div class="styled-message">{{ vnode.children }}</div>
 ```
 output:
 ```javascript
-m(".styled-message",vnode.children[0])
+m(".styled-message",vnode.children)
 ```
 
 
