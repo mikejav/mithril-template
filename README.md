@@ -223,7 +223,7 @@ m("ul", items.length
 so if items array is empty (loop won't execute even once) then else statement will be executed
 
 
-## Traps
+## Gotchas
 To maximally compress output- whitespaces whose belongs to tags are not properly handled, so if you write this code:
 ```html
 foo <span>bar</span> baz qux
